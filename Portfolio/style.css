@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+#intro {
+    font-size: 60px;
+    font-family:cursive;
+}
+#introFlex{
+    text-align: center; 
+}
+#intro img{
+    width: 450px;
+    height: auto;
+    border: 10px dotted skyblue;
+    border-radius: 500px;
+}
+#images {
+    margin-left: 180px;
+}
+#about {
+    font-size: 50px;
+    text-align: center;
+    background-color: skyblue;
+    padding: 100px;
+}
+#intrests {
+    font-size: 50px;
+}
+#intrests p {
+    text-align: center;
+}
+#intrests meter{
+    width: 1000px;
+}
+#intrests li {
+    background-color: aliceblue;
+}
+#skills {
+    font-size: 50px;
+}
+#skills ul {
+    list-style-type: square;
+}
+#pr {
+    font-size: 70px;
+}
+h4 {
+    color: skyblue;
+    border-left: 5px solid skyblue;
+}
+h3 {
+    font-family: sans-serif;
+    color:coral;
+    border-left: 7px solid coral;
+
+}
+h2 {
+    color: purple;
+    font-family:cursive;
+}
+
+.card img{
+    width: 250px;
+    height: auto;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 900px;
+    height:auto;
+    border:5px black solid;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px;
+    background-color:aliceblue;
+}
+.card-content {
+    font-size: 30px;
+}
+#contact {
+    color: white;
+    border: 2px solid black;
+    background-color: gray;
+    text-align: center;
+    font-size: 20px;
+}
