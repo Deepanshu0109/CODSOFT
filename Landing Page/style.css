@@ -204,5 +204,12 @@ body{
 #MTend a:hover{
     color:darkgreen;
 }
-
+footer {
+    text-align: center;
+    font-size: 43px;
+    background-color: indigo;
+    padding:100px;
+    margin: 50px;
+    line-height: 1.6;   
+}
 
