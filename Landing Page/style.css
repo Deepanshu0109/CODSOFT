@@ -12,11 +12,15 @@ body{
     flex-wrap: nowrap;
     gap: 20px;
     list-style-type: none;
-    margin-left: 2300px;
+    margin-left: 2250px;
     margin-top: 15px;;
 }
 .navLinks a {
     color: antiquewhite;
+    transition: all;
+}
+.navLinks a:hover {
+    color:white;
 }
 .topBar {
     display: flex;
@@ -40,12 +44,12 @@ body{
 #logoName {
     animation: x 4s infinite;
     margin-top: 10px;
+    padding-right: 20px;
 }
 #logo {
     width:50px;
     border: solid white 4px;
     border-radius: 40px;
-    margin-left: 15px;
     transition: all 2s;
 }
 #logo:hover {
@@ -61,13 +65,29 @@ body{
     border-bottom: 4px solid black;
 }
 .headerText {
+    font-family: sans-serif;
     margin: 200px 100px;
+}
+@keyframes button {
+    0% {
+        
+    }
+    50%{
+
+    }
+    100%{
+
+    }
 }
 .headerContent button {
     font-size: 40px;
     margin: 160px 40px;
     padding: 30px;
     border-radius: 17px;
+    background-color: gold;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    border: 2px solid white;    
 }
 .headerContainer{
     display: flex;
@@ -146,7 +166,7 @@ body{
     font-size: 70px;
     text-align: center;
     color: gold;
-    text-shadow: 5px 5px gray;
+    text-shadow: 5px 5px  gray;
 }
 .MTcontainer {
     display: flex;
@@ -199,10 +219,10 @@ body{
     color: antiquewhite;
 }
 #MTend a{
-    color: green;
+    color: greenyellow;
 }
 #MTend a:hover{
-    color:darkgreen;
+    color: green;
 }
 footer {
     text-align: center;
