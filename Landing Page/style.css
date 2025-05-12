@@ -10,10 +10,10 @@ body{
 .navLinks {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 10px;
     list-style-type: none;
-    margin-left: 2250px;
-    margin-top: 15px;;
+    margin-left: 1125px;
+    margin-top: 7.5px;
 }
 .navLinks a {
     color: antiquewhite;
@@ -24,8 +24,8 @@ body{
 }
 .topBar {
     display: flex;
-    border-bottom: 4px solid;
-    font-size: 25px;
+    border-bottom: 2px solid;
+    font-size: 12.5px;
 }
 @keyframes x {
     0% {
@@ -43,30 +43,30 @@ body{
 }
 #logoName {
     animation: x 4s infinite;
-    margin-top: 10px;
-    padding-right: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
 }
 #logo {
-    width:50px;
-    border: solid white 4px;
-    border-radius: 40px;
+    width:25px;
+    border: solid white 2px;
+    border-radius: 20px;
     transition: all 2s;
 }
 #logo:hover {
     border-radius: 0%;
-    border: 4px groove gray;
+    border: 2px groove gray;
 }
 .headerContent {
     text-align: center;
     line-height: 1.7;
-    margin-top: 200px;
+    margin-top: 100px;
     transform: translateX(0px);
-    font-size: 40px;
-    border-bottom: 4px solid black;
+    font-size: 20px;
+    border-bottom: 2px solid black;
 }
 .headerText {
     font-family: sans-serif;
-    margin: 200px 100px;
+    margin: 100px 50px;
 }
 @keyframes button {
     0% {
@@ -80,59 +80,62 @@ body{
     }
 }
 .headerContent button {
-    font-size: 40px;
-    margin: 160px 40px;
-    padding: 30px;
-    border-radius: 17px;
+    font-size: 20px;
+    margin: 80px 20px;
+    padding: 15px;
+    border-radius: 8.5px;
     background-color: gold;
     color: white;
-    text-shadow: 5px 5px 10px black;
-    border: 2px solid white;    
+    text-shadow: 2.5px 2.5px 5px black;
+    border: 1px solid white;    
+}
+.headerContent button:hover{
+    cursor: pointer;
+    background-color: rgb(227, 195, 10);
 }
 .headerContainer{
     display: flex;
 }
 #foodHeader {
-    transform: translatey(-200px);
-    height: 1400px;
-    width:1400px;
-   border-bottom: 4px solid ;
+    transform: translatey(-100px);
+    height: 700px;
+    width:700px;
+    border-bottom: 2px solid ;
 }
 #reason{
-    font-size: 70px;
+    font-size: 35px;
     text-align: center;
     color: gold;
-    text-shadow: 5px 5px gray;
+    text-shadow: 2.5px 2.5px gray;
 }
 .cardContainer {
     display: flex;
     flex-wrap: wrap;
-
 }
 .card{
-    border: 5px solid white;
-    box-shadow: 15px 15px 1px whitesmoke;
-    padding: 50px;
-    margin: 40px;
-    width: 500px;
-    height: 600px;
+    border: 2.5px solid white;
+    box-shadow: 7.5px 7.5px 0.5px whitesmoke;
+    padding: 25px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
     transition: all 1s ease-out;
 }
 .card:hover{
-    box-shadow: 15px 15px 7px antiquewhite;
+    box-shadow: 7.5px 7.5px 3.5px antiquewhite;
     background-color: indigo;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 .cardContent {
-    font-size: 35px;
+    font-size: 17.5px;
 }
 .cardContent h2 {               
     color: greenyellow;
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
 }
 @keyframes foodLeft {
     from {
-        transform: translateX(-250px);
+        transform: translateX(-125px);
         opacity: 0.2;
     }
     to {
@@ -143,7 +146,7 @@ body{
 }
 @keyframes foodRight {
     from {
-        transform: translateX(250px);
+        transform: translateX(125px);
         opacity: 0.2;
     }
     to {
@@ -154,7 +157,7 @@ body{
 }
 @keyframes MTdesc{
     from {
-        transform: translateY(-100px);
+        transform: translateY(-50px);
         opacity:0;
     }
     to{
@@ -163,30 +166,29 @@ body{
     }
 }
 #MTs {
-    font-size: 70px;
+    font-size: 35px;
     text-align: center;
     color: gold;
-    text-shadow: 5px 5px  gray;
+    text-shadow: 2.5px 2.5px  gray;
 }
 .MTcontainer {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .MTcardLeft {
-    
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 50px;
     text-align: left;
-    border-bottom: 7px groove gold;
+    border-bottom: 3.5px groove gold;
 }
 .MTcardLeft img {
     animation: foodLeft 3s ease-in;
     animation-timeline: view();
     animation-range: 0% cover 40%;
-    width: 700px;
-    height: 700px;
+    width: 350px;
+    height: 350px;
     object-fit: contain;
 }
 .MTcardLeft p, .MTcardRight p{
@@ -195,26 +197,26 @@ body{
     animation-timeline: view();
     animation-range: 0% cover 40%;
     text-align: center;
-    margin-top: 250px;
-    font-size: 40px;
+    margin-top: 125px;
+    font-size: 20px;
 }
 .MTcardRight {
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
-    border-bottom: 7px groove gold;
+    margin-right: 50px;
+    border-bottom: 3.5px groove gold;
 }
 .MTcardRight img {
     animation: foodRight 3s ease-out;
     animation-timeline: view();
     animation-range: 0% cover 40%;
-    width: 700px;
-    height: 700px;
+    width: 350px;
+    height: 350px;
     object-fit: contain;
 }
 #MTend {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     font-family: cursive;
     color: antiquewhite;
 }
@@ -226,10 +228,9 @@ body{
 }
 footer {
     text-align: center;
-    font-size: 43px;
+    font-size: 21.5px;
     background-color: indigo;
-    padding:100px;
-    margin: 50px;
+    padding: 50px;
+    margin: 25px;
     line-height: 1.6;   
 }
-
