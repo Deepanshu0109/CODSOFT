@@ -5,8 +5,13 @@ function press(value) {
 function equal() {
   try {
     let expression = document.getElementById("display").value;
+    expression = expression.replace(/(\d+)%/g, "($1/100)");
+    expression = expression.replace(/(\d+)\s*\+\s*\((\d+)\/100\)/, "($1 + ($2/100)*$1)");
+    expression = expression.replace(/(\d+)\s*\-\s*\((\d+)\/100\)/, "($1 - ($2/100)*$1)");
+    expression = expression.replace(/X/, "*");
     let result = eval(expression);
     display.value = result;  
+
   } catch {
     document.getElementById("display").value = "error";
   }

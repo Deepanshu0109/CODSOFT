@@ -5,8 +5,8 @@
     font-family: cursive;
 }
 body {
-    background: #550B78;
-    background: radial-gradient(circle, rgba(85, 11, 120, 1) 0%, rgba(5, 5, 5, 1) 100%);
+    background: #5e5e5e;
+    background: radial-gradient(circle, rgba(94, 94, 94, 1) 0%, rgba(5, 5, 5, 1) 50%);
     width: 100%;
     height: 100vh;
     display: grid;
@@ -16,7 +16,7 @@ body {
 }
 .calBody {
     border: 4px solid black;
-    box-shadow: 0px 7px 10px #3e1060;
+    box-shadow: 7px 10px 10px black;
     width: 400px;
     height:auto;
     border-radius: 7px;
@@ -28,8 +28,8 @@ input {
     text-align: right;
     color: azure;
     background: transparent;
-    border: 5px groove black;
-    box-shadow: 0px 2px 7px indigo;
+    border: 5px ridge gray;
+    box-shadow: 0px 2px 7px black;
     border-radius: 5px;
     color: azure;
     font-size: 5vh;
@@ -45,20 +45,28 @@ button{
     width: 70px;
     height: 70px;
     margin: 11px;
+    border: 2px ridge black;
     border-radius: 50%;
-    background: transparent;
+    background: #4c4c4c;
     color: aliceblue;
-    box-shadow: 0px 2px 7px indigo;
+    box-shadow: 0px 4px 7px black;
     cursor: pointer;
+    font-size: 3vh;
 }
 button:hover {
-    background-color: #3e1060;
+    background-color: rgb(40, 40, 40);
 }
 .equal {
-    background-color: violet;
+    background: greenyellow;
     color: black;
 }
+.equal:hover{
+    background-color: green;
+}
 .operator {
-    background-color: rgb(80, 9, 80);
-    color:violet;
+    background-color: orangered;
+    color: greenyellow;
+}
+.operator:hover{
+    background: rgb(131, 35, 0);
 }
