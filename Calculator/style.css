@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+
 body {
     background: #5e5e5e;
     background: radial-gradient(circle, rgba(94, 94, 94, 1) 0%, rgba(5, 5, 5, 1) 50%);
@@ -12,19 +13,21 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .calBody {
     border: 4px solid black;
     box-shadow: 7px 10px 10px black;
     width: 400px;
-    height:auto;
+    height: auto;
     border-radius: 7px;
 }
+
 input {
-    margin:30px;
+    margin: 30px;
     width: 340px;
-    height:100px;
+    height: 100px;
     text-align: right;
     color: azure;
     background: transparent;
@@ -34,14 +37,17 @@ input {
     color: azure;
     font-size: 5vh;
 }
+
 input::placeholder {
     color: azure;
     font-size: 5vh;
 }
+
 .topKeys {
-    border-top:  solid;
+    border-top: solid;
 }
-button{
+
+button {
     width: 70px;
     height: 70px;
     margin: 11px;
@@ -53,20 +59,25 @@ button{
     cursor: pointer;
     font-size: 3vh;
 }
+
 button:hover {
     background-color: rgb(40, 40, 40);
 }
+
 .equal {
     background: greenyellow;
     color: black;
 }
-.equal:hover{
+
+.equal:hover {
     background-color: green;
 }
+
 .operator {
     background-color: orangered;
     color: greenyellow;
 }
-.operator:hover{
+
+.operator:hover {
     background: rgb(131, 35, 0);
 }
